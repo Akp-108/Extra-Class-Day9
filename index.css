@@ -1,0 +1,63 @@
+.box{
+    height: 200px;
+    background: linear-gradient(
+        to right,    
+    red,yellow,green);
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(
+        
+    red 25%,yellow 50%,green 25%);
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(
+        
+    red 25%,blue 50%,green 25%);
+    float:left;
+}
+.box5{
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(
+        
+    red 25%,blue 50%,green 25%);
+    float:left;
+}
+
+.box4{
+    border: 2px solid red;
+    clear: left;
+}
+.box6{
+    border: 2px solid red;
+    clear: left;
+}
+
+
+.a{
+    height: 80px;
+    width: 160px;
+    padding: 20px;
+    border: 5px solid red;
+    background-color: yellow;
+}
+.content{
+    box-sizing: content-box;
+
+    /* 
+    total width= 160px+(2*8)+(2*20)  = 216;
+    total height= 80px+(2*8)+(2*20)  = 136;
+    */
+}
+.border{
+    box-sizing: border-box;
+    
+    /* 
+    total width= 160px-(2*8)-(2*20)  = 104;
+    total height= 80px-(2*8)-(2*20)  = 24;
+    */
+}
